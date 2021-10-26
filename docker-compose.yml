@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  php-apache-environment:
+    container_name: php-apache
+    build: ./conf
+    volumes:
+      - ./conf/sri.asir4all.ss.conf:/etc/apache2/sites-available/000-default.conf
+      - ./conf/contraseña:/etc/apache2/contraseña
+      - ./conf/contraseña2:/etc/apache2/contraseña2
+      - ./web:/var/www/html/
+    ports:
+      - 8181:80
