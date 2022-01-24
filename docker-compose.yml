@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  php-apache-environment:
+  web:
     container_name: php-apache
     build: ./conf
     volumes:
