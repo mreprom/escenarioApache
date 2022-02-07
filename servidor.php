@@ -1,3 +1,3 @@
 <?php
-echo "Bienvenide, conectado al servidor ".$_SERVER['SERVER_ADDR'];
+echo "Bienvenid0, conectado al servidor ".$_SERVER['SERVER_ADDR'];
 ?>
